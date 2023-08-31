@@ -1,0 +1,18 @@
+.menu-option {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-option::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #F8F8F8;
+    transition: width .5s ease-in-out;
+}
+
+.menu-option:hover::after {
+    width: 100%;
+}

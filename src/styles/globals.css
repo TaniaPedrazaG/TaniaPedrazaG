@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: local('SpaceMono-Bold'),
+    url('../assets/fonts/SpaceMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceMono-BoldItalic';
+  src: local('SpaceMono-BoldItalic'),
+    url('../assets/fonts/SpaceMono-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceMono-Italic';
+  src: local('SpaceMono-Italic'),
+    url('../assets/fonts/SpaceMono-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: local('SpaceMono-Regular'),
+    url('../assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+:root {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border-width: 0;
+  -webkit-appearance: none;
+  font-family: 'SpaceMono-Regular', monospace;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: #F8F8F8 !important;
+  background-color: #212121 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
